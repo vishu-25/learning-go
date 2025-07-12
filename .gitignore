@@ -44,6 +44,4 @@ bin/
 # or
 */bin/*
 
-idea/
-.idea/.index/
-.idea/.index/*
+*.index/
