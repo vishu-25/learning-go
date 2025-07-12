@@ -43,3 +43,7 @@ go.work
 bin/
 # or
 */bin/*
+
+idea/
+.idea/.index/
+.idea/.index/*
