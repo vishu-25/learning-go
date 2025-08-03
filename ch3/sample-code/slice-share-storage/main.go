@@ -6,13 +6,10 @@ func main() {
 	x := []string{"a", "b", "c", "d"}
 	y := x[:2]
 	z := x[1:]
-	d := x[1:3]
-	e := x[:]
-	f := x[0:2]
+	x[1] = "y"
+	y[0] = "x"
+	z[1] = "z"
 	fmt.Println("x:", x)
 	fmt.Println("y:", y)
 	fmt.Println("z:", z)
-	fmt.Println("d:", d)
-	fmt.Println("e:", e)
-	fmt.Println("f:", f)
 }
